@@ -5,16 +5,46 @@
 # 온라인 쇼핑몰 프로젝트 API 명세서
 
 ## 상품 기능
-- 상품 등록: `POST /products`
-- 상품 조회(전체): `GET /products`
-- 상품 조회(단일): `GET /products/{id}`
-- 상품 수정: `PUT /products/{id}`
-- 상품 삭제: `DELETE /products/{id}`
+
+1. 상품 등록  
+   **HTTP Method** : POST  
+   **URI** : /products  
+
+2. 상품 리스트 조회  
+   **HTTP Method** : GET  
+   **URI** : /products  
+
+3. 상품 상세 조회  
+   **HTTP Method** : GET  
+   **URI** : /products/{productId}  
+
+4. 상품 정보 수정  
+   **HTTP Method** : PUT  
+   **URI** : /products/{productId}  
+
+5. 상품 삭제  
+   **HTTP Method** : DELETE  
+   **URI** : /products/{productId}  
+
+---
 
 ## 주문 기능
-- 주문 생성: `POST /orders`
-- 주문 조회(전체): `GET /orders`
-- 주문 조회(단일): `GET /orders/{id}`
-- 주문 취소: `DELETE /orders/{id}`
+
+1. 주문 생성  
+   **HTTP Method** : POST  
+   **URI** : /orders  
+
+2. 주문 리스트 조회  
+   **HTTP Method** : GET  
+   **URI** : /orders  
+
+3. 주문 상세 조회  
+   **HTTP Method** : GET  
+   **URI** : /orders/{orderId}  
+
+4. 주문 취소  
+   **HTTP Method** : DELETE  
+   **URI** : /orders/{orderId}  
+
 
 <img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/81f06496-d2ce-4516-ba4b-4c6396b6e53b" />
